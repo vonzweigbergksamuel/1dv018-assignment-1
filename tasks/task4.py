@@ -1,14 +1,3 @@
-def task4():
-    print("================")
-    print("Task 4 - Brute Force 3 Sum")
-    print("================")
-
-    array = [-1, 0, 1, 2, -1, -4]
-    brute_force_3_sum = BruteForce3Sum(array)
-    triplets = brute_force_3_sum.find_triplets()
-    print(triplets)
-
-
 class BruteForce3Sum:
     def __init__(self, array: list[int]):
         self.array = array

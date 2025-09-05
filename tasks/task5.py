@@ -1,14 +1,3 @@
-def task5():
-    print("================")
-    print("Task 5 - Three Sum")
-    print("================")
-
-    array = [-1, 0, 1, 2, -1, -4]
-    three_sum = ThreeSum(array)
-    triplets = three_sum.find_triplets()
-    print(triplets)
-
-
 class ThreeSum:
     def __init__(self, array: list[int]):
         self.array = sorted(array)
