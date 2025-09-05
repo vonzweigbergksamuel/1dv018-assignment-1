@@ -1,23 +1,21 @@
+# 1dv018 Assignment 1
+
+Samuel von Zweigbergk - sv222rr
+
 ## Requirements
 
 - Python 3.13+
 
-## Using uv
+## Using UV
 
 - Install uv: see `https://docs.astral.sh/uv/getting-started/installation/`
 - Sync dependencies and create venv: `uv sync`
+- Run the program `uv run main.py`
 
-- `uv run main.py`
+## Using PIP
 
-## Using pip
-
-- Create a virtual environment
-  - macOS/Linux: `python3 -m venv .venv && source .venv/bin/activate`
-  - Windows (PowerShell): `py -m venv .venv; .venv\\Scripts\\Activate.ps1`
-- Upgrade pip: `python -m pip install --upgrade pip`
 - Install dependencies: `pip install matplotlib`
-
-- `python main.py`
+- Run the program `python main.py`
 
 ## Optional (dev tools)
 
