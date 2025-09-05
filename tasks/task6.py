@@ -11,7 +11,6 @@ def task6():
     sizes4, times4 = test_task4()
     sizes5, times5 = test_task5()
 
-    # Plot results
     plt.figure(figsize=(8, 5))
     plt.plot(sizes4, times4, marker="o", label="Brute Force 3Sum (O(n^3))")
     plt.plot(sizes5, times5, marker="o", label="Optimized 3Sum (O(n^2))")
@@ -30,7 +29,6 @@ def test_task4() -> tuple[List[int], List[float]]:
     print("Task 4 - Brute Force 3 Sum")
     print("================")
 
-    # Timing harness (O(n^3), keep small)
     sizes = [100, 200, 500, 800, 1000]
     iterations = 3
     rng = random.Random(42)
@@ -53,7 +51,6 @@ def test_task5() -> tuple[List[int], List[float]]:
     print("Task 5 - Three Sum")
     print("================")
 
-    # Timing harness (O(n^2) typical)
     sizes = [100, 200, 500, 800, 1000]
     iterations = 3
     rng = random.Random(42)
